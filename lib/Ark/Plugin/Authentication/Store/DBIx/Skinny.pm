@@ -108,9 +108,9 @@ Authentication::Store::DBIx::Skinny
 
 __PACKAGE__->config(
     'Plugin::Authentication::Store::DBIx::Skinny' => {
-        model      => 'DB',
-        table      => 'members',
-        user_field => 'membername',
+        model      => 'Skinny',
+        table      => 'users',
+        user_field => 'name',
     }
 );
 
