@@ -1,5 +1,10 @@
-Ark-Plugin-Authentication-Store-DBIx-Skinny-0.0.1/
-*.bak
+cover_db
+META.yml
 Makefile
-blib/
+blib
+inc
 pm_to_blib
+MANIFEST
+MANIFEST.bak
+Makefile.old
+Ark-Plugin-Authentication-Store-DBIx-Skinny-*
