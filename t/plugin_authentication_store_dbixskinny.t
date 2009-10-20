@@ -89,7 +89,7 @@ CREATE TABLE users (
     }
 }
 
-plan 'no_plan';
+plan tests => 4;
 
 use Ark::Test 'T1',
     components => [qw/Controller::Root
