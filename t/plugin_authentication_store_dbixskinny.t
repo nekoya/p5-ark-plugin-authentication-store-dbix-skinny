@@ -64,7 +64,7 @@ CREATE TABLE users (
     package T1::Controller::Root;
     use Ark 'Controller';
 
-    __PACKAGE__->config->{namespace} = '';
+    has '+namespace' => default => '';
 
     sub index :Path {
         my ($self, $c) = @_;

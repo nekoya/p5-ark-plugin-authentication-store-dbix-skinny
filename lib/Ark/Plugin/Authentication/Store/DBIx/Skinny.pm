@@ -1,7 +1,7 @@
 package Ark::Plugin::Authentication::Store::DBIx::Skinny;
 use Ark::Plugin 'Auth';
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.1.0';
 
 has dbix_skinny_model => (
     is      => 'rw',
@@ -120,20 +120,17 @@ Authentication plugin for Ark with DBIx::Skinny
 
 Ark - web application framework like Catalyst - http://github.com/typester/ark-perl/tree/master
 
-DBIx::Skinny - simply OR mapper - http://github.com/nekokak/p5-dbix-skinny/tree/master
+=head1 SEE ALSO
 
-=head1 BUGS AND LIMITATIONS
-
-No bugs have been reported.
+L<DBIx::Skinny>
 
 =head1 AUTHOR
 
-Ryo Miyake  C<< <ryo.studiom@gmail.com> >>
+Ryo Miyake  C<< <ryo.studiom __at__ gmail.com> >>
 
-=head1 LICENCE AND COPYRIGHT
+=head1 LICENSE
 
-Copyright (c) 2009, Ryo Miyake C<< <ryo.studiom@gmail.com> >>. All rights reserved.
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
-This module is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself. See L<perlartistic>.
-
+=cut
